@@ -15,14 +15,14 @@ public class Ejer7T4 {
 		for (i=0; i < s1.length(); i++){ 
 			if (s1.charAt(i)>=65 && s1.charAt(i)<=90){
 				contaMay++;			
-			}
-			if (s1.charAt(i)>=97 && s1.charAt(i)<=122){
+			}else if (s1.charAt(i)>=97 && s1.charAt(i)<=122){
 				contaMin++;
-			}
-			if (s1.charAt(i)>=48 && s1.charAt(i)<=57){
+			}else if (s1.charAt(i)>=48 && s1.charAt(i)<=57){
 				contaNum++;		
 			}
 		}
+
+
 		System.out.println("La frase " +s1 +" contiene " +contaMay +" mayusculas " +contaMin +" minusculas y " +contaNum +" numeros");
 	}//main
 

@@ -24,11 +24,6 @@ public class Ejer9T4 {
 				System.out.println("Introduce bien el codigo (H o M)");
 				s1 = sc.nextLine();	
 			}
-			if (s1.charAt(4)=='H'){
-				contaH++;
-			}else{
-				contaM++;
-			}
 			while (s1.charAt(5)=='1' || s1.charAt(5)=='2'){
 				contaMal++;
 				System.out.println("Introduce bien el codigo (1 o 2)");
@@ -38,6 +33,11 @@ public class Ejer9T4 {
 				contaC1++;
 			}else{
 				contaC2++;
+			}
+			if (s1.charAt(4)=='H'){
+				contaH++;
+			}else{
+				contaM++;
 			}
 			contaBien++;
 			System.out.println("Introduce otro codigo");
