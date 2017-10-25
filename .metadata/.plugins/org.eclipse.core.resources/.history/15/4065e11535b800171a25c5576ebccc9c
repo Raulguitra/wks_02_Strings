@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Ejer2T4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1;
+		int i, contaMay=0, contaMin=0;
+		System.out.println("Escribe una frase");
+		s1 = sc.nextLine();
+		while (s1.length() > 80){
+			System.out.println("Escribe una frase menor de 80 caracteres");
+			s1 = sc.nextLine();
+		}
+		for (i=0; i < s1.length(); i++){ // i <= lengh?????????????????????????????????????????
+			if (s1.charAt(i)>=65 && s1.charAt(i)<=90){
+				contaMay++;			
+			}else{
+				contaMin++;	
+			}
+		}
+		System.out.println("la frase " +s1 +" tiene " +contaMay++ +" letras mayusculas y " +contaMin++ +" letras minusculas");
+
+	}//main
+
+}//Class
+
+/*	minus = s1.compareTo(s1.toLowerCase());
+mayus = s1.compareTo(s1.toUpperCase());
+String sMay = Integer.toString(mayus);
+String sMin = Integer.toString(minus);
+System.out.println(+minus);
+System.out.println(+mayus);
+System.out.println(sMay.length());
+System.out.println(sMin.length());
+System.out.println("la frase " +s1 +" tiene " +sMay.length() +" mayuscylas y " +sMin.length() +" minusculas");
+/*
+ * 
+ */

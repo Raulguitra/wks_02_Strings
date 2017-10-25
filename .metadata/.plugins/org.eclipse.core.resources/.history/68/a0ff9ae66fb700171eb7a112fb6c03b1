@@ -1,0 +1,30 @@
+import java.util.*;
+public class Ejer5T4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1,sPar,sImpar;
+		int i=0, sumaPar=0, sumaImpar=0;
+		System.out.println("Escribe una frase");
+		s1 = sc.nextLine();
+		while (s1.length() > 80){
+			System.out.println("Escribe una frase menor de 80 caracteres");
+			s1 = sc.nextLine();
+		}
+
+		for (i=0 ; i<=s1.length(); i++){	
+			if (i%2==0){
+				sumaPar = sumaPar + i;
+				//System.out.println("Cadena par " +s1.valueOf(i));
+			}else{
+				sumaImpar = sumaImpar + i;
+				//System.out.println("Cadena impar " +s1.valueOf(i));
+			}
+			
+		}	
+		System.out.println("Cadena par " +s1.valueOf(sumaPar));
+		System.out.println("Cadena par " +s1.copyValueOf(data, offset, count));
+		
+	}//main
+
+}//Class
