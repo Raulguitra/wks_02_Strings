@@ -14,17 +14,22 @@ public class Ejer9T4 {
 				System.out.println("Introduce bien el codigo (longitud)");
 				s1 = sc.nextLine();	
 			}
-			while (((s1.substring(0, 3))!="1990")||(s1.substring(0, 3)!="1991")||(s1.substring(0, 3)!="1992")||(s1.substring(0, 3)!="1993")||(s1.substring(0, 3)!="1994")||(s1.substring(0, 3)!="1995")){
+			while (s1.startsWith("199")==false){
+				contaMal++;
+				System.out.println("Introduce bien el codigo (Empieza por 199)");
+				s1 = sc.nextLine();	
+			}
+			while (s1.charAt(3)<=48 && s1.charAt(3)>=53){
 				contaMal++;
 				System.out.println("Introduce bien el codigo (199X)");
 				s1 = sc.nextLine();	
 			}
-			while (s1.charAt(4)!='H' || s1.charAt(4)!='M'){
+			while (s1.charAt(4)!='H' && s1.charAt(4)!='M'){
 				contaMal++;
 				System.out.println("Introduce bien el codigo (H o M)");
 				s1 = sc.nextLine();	
 			}
-			while (s1.charAt(5)=='1' || s1.charAt(5)=='2'){
+			while (s1.charAt(5)=='1' && s1.charAt(5)=='2'){
 				contaMal++;
 				System.out.println("Introduce bien el codigo (1 o 2)");
 				s1 = sc.nextLine();	
