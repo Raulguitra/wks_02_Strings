@@ -1,9 +1,21 @@
-
+import java.util.*;
 public class Ejer11T4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String s1, s2="";
+		int i;
+		char ch;
+		System.out.println("Escribe una frase");
+		s1 = sc.nextLine();
+		while (s1.length() > 20){
+			System.out.println("Escribe una frase menor de 80 caracteres");
+			s1 = sc.nextLine();
+		}
+		for (i=0; i<s1.length(); i++){
+			
+		}
+			
+	}//main
 
-	}
-
-}
+}//CLass

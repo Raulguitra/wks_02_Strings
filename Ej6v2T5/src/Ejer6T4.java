@@ -15,12 +15,14 @@ public class Ejer6T4 {
 		s1m = s1.toUpperCase();
 		String cons = "BCDFGHJKLMNPQRSTVWXYZ";
 		String voc = "AEIOU";
+		String num ="0123456789";
 		for (i=0; i < s1m.length(); i++){ 
-			if (cons.indexOf(i)!=-1){
+			char letra = s1m.charAt(i);
+			if (cons.indexOf(letra)!=-1){
 				contaCons++;			
-			}else if (voc.indexOf(i)!=-1){
+			}else if (voc.indexOf(letra)!=-1){
 				contaVocal++;
-			}else if (s1m.charAt(i)>=48 && s1m.charAt(i)<=57){
+			}else if (num.indexOf(letra) != -1){
 				contaNum++;
 			}
 		}
