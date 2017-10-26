@@ -5,10 +5,10 @@ public class Ejer9T4 {
 		Scanner sc = new Scanner(System.in);
 		String s1;
 		char H, M;
-		int i, contaH1=0, contaH2=0, contaM1=0,contaM2=0, contaMal=0, contaBien=0;
+		int i, contaH=0, contaM=0, contaC1=0,contaC2=0, contaMal=0, contaBien=0;
 		System.out.println("Escribe: 199_(H o M)(1 o 2)(caracter libre)(caracter libre)");
 		s1 = sc.nextLine();
-		while (!s1.equals("00000000")){
+		while (s1.equals("00000000")){
 			while (s1.length() != 8) {
 				contaMal++;
 				System.out.println("Introduce bien el codigo (longitud)");
@@ -35,23 +35,21 @@ public class Ejer9T4 {
 				s1 = sc.nextLine();	
 			}
 			if (s1.charAt(5)=='1'){
-				if (s1.charAt(4)=='H'){
-					contaH1++;	
+				contaC1++;
 			}else{
-				contaM1++;
+				contaC2++;
 			}
-				if (s1.charAt(5)=='2'){
-					if (s1.charAt(4)=='H'){
-						contaH2++;	
-				}else{
-					contaM2++;
-				}
+			if (s1.charAt(4)=='H'){
+				contaH++;
+			}else{
+				contaM++;
+			}
 			contaBien++;
 			System.out.println("Introduce otro codigo");
 			s1 = sc.nextLine();
 		}
 		System.out.println(contaBien+" codigos han sido introducidos correctamente");
-		System.out.println("Hay " +contaH1 +" hombres y " +contaM1 +" en primero " +" y " +contaH2+" hombres y " +contaM2 +" en segundo ");
+		System.out.println("Hay " +contaM +" hombres y " +contaH +" mujeres en " +contaC1 +" y " +contaM +" hombres y " +contaH +" mujeres en " +contaC2);
 
 	}//main
 
