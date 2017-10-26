@@ -10,6 +10,7 @@ public class ArrayEj1 {
 		double media;
 		System.out.println("Escribe una frase");
 		for (i=0; i < n; i++){
+			
 			Array1[i]=(int)Math.floor(Math.random()*21-10);
 			conta = conta + Array1[i];
 			System.out.println(Array1[i]);

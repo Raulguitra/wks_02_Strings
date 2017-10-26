@@ -55,9 +55,7 @@ public class Ejer9T4 {
 		}
 
 		System.out.println(contaBien+" codigos han sido introducidos correctamente");
-		System.out.println(contaMal+" codigos han sido introducidos mal");
-		System.out.println("Hay " +contaH1 +" hombres en primero y " +contaH2 +" en segundo ");
-		System.out.println("Hay " +contaM1 +" mujeres en primero y " +contaM2 +" en segundo ");
+		System.out.println("Hay " +contaH1 +" hombres y " +contaM1+" mujeres " +" en primero " +" y " +contaH2+" hombres y " +contaM2 +" mujeres "+" en segundo ");
 
 	}//main
 
