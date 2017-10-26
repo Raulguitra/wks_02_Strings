@@ -39,11 +39,13 @@ public class Ejer9T4 {
 				}else{
 					contaM1++;
 				}
-			}else if (s1.charAt(5)=='2'){
-				if (s1.charAt(4)=='H'){
-					contaH2++;
-				}else{
-					contaM2++;
+			}else{
+				if (s1.charAt(5)=='2'){
+					if (s1.charAt(4)=='H'){
+						contaH2++;
+					}else{
+						contaM2++;
+					}
 				}
 			}
 			contaBien++;

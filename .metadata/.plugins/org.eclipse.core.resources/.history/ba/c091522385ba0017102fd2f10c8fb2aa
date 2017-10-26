@@ -4,6 +4,7 @@ public class Ejer9T4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String s1;
+		char H, M;
 		int i, contaH1=0, contaH2=0, contaM1=0,contaM2=0, contaMal=0, contaBien=0;
 		System.out.println("Escribe: 199_(H o M)(1 o 2)(caracter libre)(caracter libre)");
 		s1 = sc.nextLine();
@@ -13,12 +14,12 @@ public class Ejer9T4 {
 				System.out.println("Introduce bien el codigo (longitud)");
 				s1 = sc.nextLine();	
 			}
-			while (s1.startsWith("199")==false){ 
+			while (s1.startsWith("199")==false){
 				contaMal++;
 				System.out.println("Introduce bien el codigo (Empieza por 199)");
 				s1 = sc.nextLine();	
 			}
-			while (s1.charAt(3)<=48 && s1.charAt(3)>=53){ //mientras no sea 0-5
+			while (s1.charAt(3)<=48 && s1.charAt(3)>=53){
 				contaMal++;
 				System.out.println("Introduce bien el codigo (199X)");
 				s1 = sc.nextLine();	
@@ -39,11 +40,13 @@ public class Ejer9T4 {
 				}else{
 					contaM1++;
 				}
-			}else if (s1.charAt(5)=='2'){
-				if (s1.charAt(4)=='H'){
-					contaH2++;
-				}else{
-					contaM2++;
+			}else{
+				if (s1.charAt(5)=='2'){
+					if (s1.charAt(4)=='H'){
+						contaH2++;
+					}else{
+						contaM2++;
+					}
 				}
 			}
 			contaBien++;

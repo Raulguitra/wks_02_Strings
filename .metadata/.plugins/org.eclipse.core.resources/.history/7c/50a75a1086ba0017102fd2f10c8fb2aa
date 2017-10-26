@@ -40,12 +40,14 @@ public class Ejer9T4 {
 					contaM1++;
 				}
 			}else if (s1.charAt(5)=='2'){
-				if (s1.charAt(4)=='H'){
-					contaH2++;
-				}else{
-					contaM2++;
+					if (s1.charAt(4)=='H'){
+						contaH2++;
+					}else{
+						contaM2++;
+					}
 				}
-			}
+				
+			
 			contaBien++;
 			System.out.println("Introduce otro codigo");
 			s1 = sc.nextLine();
