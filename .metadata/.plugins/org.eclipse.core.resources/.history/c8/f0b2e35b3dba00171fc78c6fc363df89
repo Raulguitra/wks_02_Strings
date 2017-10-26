@@ -36,26 +36,22 @@ public class Ejer9T4 {
 			}
 			if (s1.charAt(5)=='1'){
 				if (s1.charAt(4)=='H'){
-					contaH1++;
-				}else{
-					contaM1++;
-				}
+					contaH1++;	
 			}else{
+				contaM1++;
+			}
 				if (s1.charAt(5)=='2'){
 					if (s1.charAt(4)=='H'){
-						contaH2++;
-					}else{
-						contaM2++;
-					}
+						contaH2++;	
+				}else{
+					contaM2++;
 				}
-			}
 			contaBien++;
 			System.out.println("Introduce otro codigo");
 			s1 = sc.nextLine();
 		}
-
 		System.out.println(contaBien+" codigos han sido introducidos correctamente");
-		System.out.println("Hay " +contaH1 +" hombres y " +contaM1+" mujeres " +" en primero " +" y " +contaH2+" hombres y " +contaM2 +" mujeres "+" en segundo ");
+		System.out.println("Hay " +contaH1 +" hombres y " +contaM1 +" en primero " +" y " +contaH2+" hombres y " +contaM2 +" en segundo ");
 
 	}//main
 
