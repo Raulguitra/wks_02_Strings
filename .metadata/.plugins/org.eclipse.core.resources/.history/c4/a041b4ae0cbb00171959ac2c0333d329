@@ -18,7 +18,7 @@ public class Ejer9T4 {
 				System.out.println("Introduce bien el codigo (Empieza por 199)");
 				s1 = sc.nextLine();	
 			}
-			while (s1.charAt(3)<=48 && s1.charAt(3)>=53){ //(mientras no este entre 0 y 5 entra al bucle) --->-> NO VA
+			while (s1.charAt(3)<=48 && s1.charAt(3)>=53){ //mientras no sea 0-5 -> no va
 				contaMal++;
 				System.out.println("Introduce bien el codigo (199X)");
 				s1 = sc.nextLine();	
