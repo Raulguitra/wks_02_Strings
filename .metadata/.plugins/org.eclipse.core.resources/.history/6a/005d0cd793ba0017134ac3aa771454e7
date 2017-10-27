@@ -1,0 +1,29 @@
+import java.util.*;
+public class ArrayEj2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int i, j,p;
+		final int n = 10;
+		int Array1 [];
+		Array1 = new int[n];
+		final int m = 10;
+		int Array2 [];
+		Array2 = new int[m];
+		System.out.print("Introduce el primer array");
+		for (i=0; i < n; i++){
+			Array1[i] = sc.nextInt();
+		}
+		System.out.print("Introduce el segundo array");
+		for (i=0; i < m; i++){
+			Array2[i] = sc.nextInt();
+		}
+		for (i=0; i < n; i++){
+			for (j=0; j < m; i++){
+				int Array3 = Array1[i]+Array2[j];
+				System.out.println(Array3);
+			}
+		}
+	}//main
+
+}//Class

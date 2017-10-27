@@ -1,0 +1,47 @@
+import java.util.*;
+
+public class ArrayEj1 {
+
+	public static void main(String[] args) {
+		final int n = 10;
+		int Array1 [];
+		Array1 = new int[n];
+		int i,conta=0, max=0, min=0;
+		double media;
+		System.out.print("Lista de 10 numeros: ");
+		for (i=0; i < n; i++){
+			Array1[i]=(int)Math.floor(Math.random()*20-1); //10
+			conta = conta + Array1[i];
+			System.out.print((int)Array1[i]);
+			System.out.print(" ");
+			if (max < Array1[i]){
+				max = Array1[i];
+			}
+			if (min > Array1[i]){
+				min = Array1[i];
+			}
+		}	
+		System.out.println();
+		media = (double) conta/20;
+		System.out.println("La media es: " +media);
+		System.out.println("Num max: " +max);
+		System.out.println("Num min: " +min);
+		
+		System.out.print("Numeros mayores que " +media +": ");
+		for (i=0; i < n; i++){
+			if (Array1[i] > media){
+				System.out.print((int)Array1[i]);
+				System.out.print(", ");
+			}		
+		}
+		System.out.println();
+		System.out.print("Numeros menores que " +media +": ");
+		for (i=0; i < n; i++){
+			if (Array1[i] < media){
+				System.out.print((int)Array1[i]);
+				System.out.print(" ");
+			}		
+		}
+	}//main
+
+}//Class
