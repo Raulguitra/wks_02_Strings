@@ -1,0 +1,27 @@
+
+public class ArrayEj5 {
+
+	public static void main(String[] args) {
+		int i;
+		final int n = 10;
+		int Array1 [];
+		int Array2 [];
+		Array1 = new int[n];
+		Array2 = new int[n];
+		System.out.print("Array 1: ");
+		for (i=0; i<n; i++){
+			Array1[i]=(int)Math.floor(Math.random()*5+1);
+			System.out.print(Array1[i]);
+			System.out.print(" ");
+		}
+		System.out.println("");
+		System.out.print("Array 2: ");
+		for (i=0; i<n; i++){
+			Array2[i]=(int)Math.floor(Math.random()*5+1);
+			System.out.print(Array2[i]);
+			System.out.print(" ");
+		}
+
+	}//main
+
+}//Class
