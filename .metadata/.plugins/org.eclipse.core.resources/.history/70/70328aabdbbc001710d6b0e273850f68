@@ -22,8 +22,8 @@ public class ArrayEj4 {
 				}
 			}
 		}
-		System.out.println("Num max: " +max +" en la posicion [" +filaMax +"], [" +colMax+"]");
-		System.out.println("Num min: " +min +" en la posicion [" +filaMin +"], [" +colMin+"]");
+		System.out.println("Num max: " +max +" en la posicion " +filaMax +" , " +colMax);
+		System.out.println("Num min: " +min +" en la posicion " +filaMin +" , " +colMin);
 	}//main
 
 }//Class
