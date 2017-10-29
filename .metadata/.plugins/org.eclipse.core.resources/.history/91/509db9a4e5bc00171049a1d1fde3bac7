@@ -14,6 +14,7 @@ public class ArrayEj5 {
 			}
 			
 		}
+
 		for (i=0; i<f; i++){
 			for (j=0; j<c; j++){
 				sumaF+=Array1[i][j];

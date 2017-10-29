@@ -10,10 +10,12 @@ public class ArrayEj5 {
 		for (i=0; i<f; i++){
 			for (j=0; j<c; j++){
 				Array1[i][j]=(int)Math.floor(Math.random()*11-5);
-				System.out.println(Array1[i][j] +"["+i+"]" +"["+j+"]");
 			}
 			
 		}
+		System.out.print(Array1[f][c]);
+		System.out.print(" ");
+		
 		for (i=0; i<f; i++){
 			for (j=0; j<c; j++){
 				sumaF+=Array1[i][j];
