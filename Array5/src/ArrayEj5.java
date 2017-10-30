@@ -2,7 +2,7 @@
 public class ArrayEj5 {
 
 	public static void main(String[] args) {
-		int i,j;
+		int i,j,conta=0,k;
 		final int n = 10;
 		int Array1 [];
 		int Array2 [];
@@ -25,10 +25,12 @@ public class ArrayEj5 {
 		for (i=0; i<n; i++){
 			for (j=0; j<n; j++){
 				if (Array1[i]==Array2[j]){
-					System.out.print(Array1[i] +" esta "); //MAL
+					System.out.println(Array1[i] +" esta "  +" veces ");
+					//MAL
+				}
 			}
-			
-			}
+
+
 		}
 
 	}//main
