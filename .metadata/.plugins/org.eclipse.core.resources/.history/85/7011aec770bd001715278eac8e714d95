@@ -27,14 +27,14 @@ public class ArrayEj7 {
 			System.out.println("Numero entre 1 y 5 ");
 			fila2 = sc.nextInt();
 		}
-		for (i=0; i<f; i++){ 
-			temp = Array1[fila1-1][i]; //
+		for (i=0; i<f; i++){ //Sobreescribe la fila1
+			temp = Array1[fila1-1][i];
 			Array1[fila1-1][i] = Array1[fila2-1][i];
-			Array1[fila2-1][i] = temp; //
+			Array1[fila2-1][i] = temp;
 		}
 		for (i=0; i<f; i++){
 			for (j=0; j<c; j++){
-				System.out.println(Array1[i][j] +"["+i+"]" +"["+j+"]");
+				System.out.println(Array1[fila2-1][j] +"["+i+"]" +"["+j+"]");
 			}
 		}
 	}//main
