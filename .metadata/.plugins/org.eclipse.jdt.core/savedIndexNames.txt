@@ -1,3 +1,22 @@
-INDEX VERSION 1.130+C:\Users\usuario\Desktop\PR\wks_02_Strings\.metadata\.plugins\org.eclipse.jdt.core
-1063643129.index
-664140773.index
+INDEX VERSION 1.130+F:\DAW1\PR\Workspaces\wks_02_Strings\.metadata\.plugins\org.eclipse.jdt.core
+3672054667.index
+3493934721.index
+3552961263.index
+3523709144.index
+3515047094.index
+2198378634.index
+420429150.index
+2194338493.index
+1768278481.index
+3570158131.index
+2829987599.index
+2147904740.index
+4033648747.index
+2271979773.index
+509802823.index
+3749584414.index
+3599430762.index
+390697193.index
+4144061554.index
+3676139964.index
+3611860573.index

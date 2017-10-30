@@ -28,7 +28,7 @@ public class ArrayEj7 {
 			fila2 = sc.nextInt();
 		}
 		for (i=0; i<f; i++){ 
-			temp = Array1[fila1-1][i]; //
+			temp = Array1[fila1-1][i]; // matriz auxiliar para que no sobreescriba las filas
 			Array1[fila1-1][i] = Array1[fila2-1][i];
 			Array1[fila2-1][i] = temp; //
 		}
