@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ArrayEj9 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int i,j,n;
+		String cartaNum [] = {"1", "2", "3", "4", "5", "6", "7","A","B","C"};
+		String palo [] = {"O", "C", "E", "B"};
+		String carta="";
+		System.out.println("Pulsa 0 para salir");
+		n = sc.nextInt();
+		int num=(int)Math.floor(Math.random()*6+1);
+		int num2=(int)Math.floor(Math.random()*4+1);
+		while (n!=0){
+			for (i=0; i<cartaNum.length; i++){
+				for (j=0; j<palo.length; j++){ //carta = ((cartaNum.length-num)+palo[i]); //solo bastos
+					carta = cartaNum[i]+palo[j];
+					//System.out.println(carta);
+				}
+				
+			}
+			System.out.println(cartaNum.length-num+palo[i]);
+			System.out.println("Pulsa 0 para salir");
+			n = sc.nextInt();
+		}
+
+
+	}//main
+
+}//Class

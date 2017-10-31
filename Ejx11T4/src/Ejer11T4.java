@@ -13,7 +13,7 @@ public class Ejer11T4 {
 		}
 		for (i=0; i<s1.length(); i++){
 			s1=s1.charAt(s1.length()-1)+ s1.substring(0,s1.length()-1);
-            System.out.println(s1);
+			System.out.println(s1);
 		}
 	}//main
 
