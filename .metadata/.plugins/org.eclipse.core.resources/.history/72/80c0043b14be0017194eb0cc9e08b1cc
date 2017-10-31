@@ -26,8 +26,8 @@ public class Ejer8v2T4 {
 				ch = (char)(ch + n);
 			}
 			if (ch > 'Z'){
-				//ch = (char)((ch +'A' - (n%26) ));
-				ch = (char)(ch - 'Z' + 'A' - 1);
+				ch = (char)((ch - (n%26)));
+				//ch = (char)(ch - 'Z' + 'A' - 1);
 			}
 			s2 += ch;
 		}

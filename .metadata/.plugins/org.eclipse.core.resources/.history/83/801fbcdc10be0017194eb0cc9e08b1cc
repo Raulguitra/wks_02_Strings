@@ -1,0 +1,28 @@
+import java.util.*;
+public class Ejer11T4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1, s2="";
+		int i;
+		char ch, ch2;
+		System.out.println("Escribe una frase");
+		s1 = sc.nextLine();
+		int max=s1.length();
+		while (s1.length() > 20){
+			System.out.println("Escribe una frase menor de 80 caracteres");
+			s1 = sc.nextLine();
+		}
+		for (i=0; i<s1.length(); i++){
+			ch = s1.charAt(i);
+			ch2 = s1.charAt(max);
+			for (i=max; i<s1.length(); i--){
+				ch2 = s1.charAt(max);
+				System.out.println(s1.replace(ch, ch2));
+			}
+			System.out.println(s1.replace(ch, ch2));
+		}
+
+	}//main
+
+}//CLass
