@@ -3,7 +3,7 @@ public class ArrayEj2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int i;
+		int i, iteracion, aux;
 		final int n = 10;
 		int Array1 [];
 		int Array2 [];
@@ -46,6 +46,19 @@ public class ArrayEj2 {
 			System.out.print(Array3[i]);
 			System.out.print(" ");
 		}
+		for( iteracion = 0; iteracion < 9; iteracion++){
+			for(i = 0; i < 10-iteracion-1; i++){
+				if( Array3[ i + 1 ] < Array3[ i ]){
+					aux = Array3[ i + 1 ];
+					Array3[ i + 1 ] = Array3[ i ];
+					Array3[ i ] = aux;
+				}	
+				System.out.print("\n"+Array3[ i ]);	
+			}
+			
+		}
+			
+	
 	}//main
 
 }//Class

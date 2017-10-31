@@ -11,10 +11,11 @@ public class ArrayEj9 {
 		String carta2="";
 		System.out.println("Pulsa 0 para salir");
 		n = sc.nextInt();
-		while (n!=0){
-		/*	for (i=0; i<cartaNum.length; i++){
+		while (n!=0){ //array de 0 a 39 
+			/*for (i=0; i<cartaNum.length; i++){
 				for (j=0; j<palo.length; j++){ 
 					carta = cartaNum[i]+palo[j];
+					System.out.println(cartaNum[i]+palo[j]);
 				}
 			}*/
 			int numRandom = (int) Math.round(Math.random() * 9 ) ;
