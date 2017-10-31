@@ -46,7 +46,7 @@ public class ArrayEj2 {
 			System.out.print(Array3[i]);
 			System.out.print(" ");
 		}
-	/*	for( iteracion = 0; iteracion < 9; iteracion++){
+		for( iteracion = 0; iteracion < 9; iteracion++){
 			for(i = 0; i < 10-iteracion-1; i++){
 				if( Array3[ i + 1 ] < Array3[ i ]){
 					aux = Array3[ i + 1 ];
@@ -56,14 +56,8 @@ public class ArrayEj2 {
 				System.out.print("\n"+Array3[ i ]);	
 			}
 			
-		}*/
-		Arrays.sort(Array3);
-		System.out.println("");
-		System.out.print("Array 3 ordenado: ");
-		for (i=0; i < n; i++){
-			System.out.print(Array3[i]);
-			System.out.print(" ");
 		}
+			
 	
 	}//main
 

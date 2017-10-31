@@ -57,13 +57,11 @@ public class ArrayEj2 {
 			}
 			
 		}*/
-		Arrays.sort(Array3);
 		System.out.println("");
-		System.out.print("Array 3 ordenado: ");
+		System.out.print("Array 3: ");
 		for (i=0; i < n; i++){
 			System.out.print(Array3[i]);
 			System.out.print(" ");
-		}
 	
 	}//main
 
