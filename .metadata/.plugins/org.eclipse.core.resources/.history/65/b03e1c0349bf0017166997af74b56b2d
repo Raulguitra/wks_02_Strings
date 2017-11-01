@@ -17,7 +17,7 @@ public class ArrayEj9 {
 			carta2=cartaNum[numRandom]+palo[numRandom2];
 			System.out.println(carta2);
 			
-			for (i=0; i<40; i++){ //añadir el valor de la carta solo en la primera posicion
+			for (i=0; i<carta.length; i++){
 				carta [i] = cartaNum[numRandom]+palo[numRandom2];		
 				System.out.println(carta[i]);
 			}
