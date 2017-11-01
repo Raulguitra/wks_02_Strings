@@ -22,13 +22,12 @@ public class ArrayEj9 {
 				//System.out.println(carta[i]);
 				if (nuevaCarta.equals(carta[i])){
 					System.out.println("Ya ha salido");
-					carta[conta]=null; //Se sobreescribe luego. 2 mensajes?
+					carta[conta]=null; //Se sobreescribe luego
 				}
 			}
 			carta[conta]=cartaNum[numRandom]+palo[numRandom2];
 			System.out.println(carta[conta]);
-			conta++; //lugar??
-			
+			conta++;
 			System.out.println("Pulsa 0 para salir");
 			n = sc.nextInt();
 		}

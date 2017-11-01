@@ -27,7 +27,7 @@ public class ArrayEj9 {
 			}
 			carta[conta]=cartaNum[numRandom]+palo[numRandom2];
 			System.out.println(carta[conta]);
-			conta++; //lugar??
+			conta++;
 			
 			System.out.println("Pulsa 0 para salir");
 			n = sc.nextInt();
