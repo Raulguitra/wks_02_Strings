@@ -23,14 +23,13 @@ public class ArrayEj5 {
 		}
 		System.out.println("");
 		for (i=0; i<n; i++){
+			conta=0;
 			for (j=0; j<n; j++){
 				if (Array1[i]==Array2[j]){
-					System.out.println(Array1[i] +" esta "  +" veces ");
-					//MAL
+					conta++;	
 				}
 			}
-
-
+			System.out.println(Array1[i] +" está " +conta +" veces ");
 		}
 
 	}//main
