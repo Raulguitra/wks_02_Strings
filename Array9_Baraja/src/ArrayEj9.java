@@ -22,7 +22,7 @@ public class ArrayEj9 {
 				//System.out.println(carta[i]);
 				if (nuevaCarta.equals(carta[i])){
 					System.out.println("Ya ha salido");
-					carta[conta]=null; //Se sobreescribe luego. 2 mensajes?
+					carta[conta-1]=null; //Se sobreescribe luego. 2 mensajes?
 				}
 			}
 			carta[conta]=cartaNum[numRandom]+palo[numRandom2];

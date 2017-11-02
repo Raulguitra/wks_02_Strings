@@ -17,12 +17,12 @@ public class ArrayEj3 {
 				posMax = i;
 				
 
-			}
-			if (min > Array1[i]){
+			}else if(min > Array1[i])
 				min = Array1[i];
 				posMin = i;
+				
 			}
-		}
+		
 
 		System.out.println();
 		System.out.println("Num max: " +max +" en la posicion " +posMax); 
