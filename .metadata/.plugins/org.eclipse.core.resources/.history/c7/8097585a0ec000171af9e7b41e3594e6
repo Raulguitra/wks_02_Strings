@@ -23,8 +23,8 @@ public class ArrayEj9 {
 				if (nuevaCarta.equals(carta[i])){
 					System.out.println("Ya ha salido");
 					encontrado = true;
-					if (carta[39]!=null){
-						System.out.print(" toda la baraja, ludopata ");
+					if (nuevaCarta.length()>39){
+						System.out.println("Toda la baraja");
 					}
 				}
 			}
@@ -32,8 +32,8 @@ public class ArrayEj9 {
 				carta[i]=cartaNum[numRandom]+palo[numRandom2];
 				System.out.println(carta[i]);
 			}
-			conta++;
-			System.out.println("Has sacado " +conta +" cartas");
+
+			System.out.println("Pulsa 0 para salir");
 			n = sc.nextInt();
 		}
 	}//main

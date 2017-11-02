@@ -24,7 +24,7 @@ public class ArrayEj9 {
 					System.out.println("Ya ha salido");
 					encontrado = true;
 					if (carta[39]!=null){
-						System.out.print(" toda la baraja, ludopata ");
+						System.out.print(" toda la baraja, ludopata");
 					}
 				}
 			}
@@ -33,7 +33,7 @@ public class ArrayEj9 {
 				System.out.println(carta[i]);
 			}
 			conta++;
-			System.out.println("Has sacado " +conta +" cartas");
+			System.out.println("\nHas sacado " +conta +" cartas");
 			n = sc.nextInt();
 		}
 	}//main

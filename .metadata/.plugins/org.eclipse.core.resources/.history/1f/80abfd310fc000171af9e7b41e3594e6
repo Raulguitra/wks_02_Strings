@@ -24,7 +24,7 @@ public class ArrayEj9 {
 					System.out.println("Ya ha salido");
 					encontrado = true;
 					if (carta[39]!=null){
-						System.out.print(" toda la baraja, ludopata ");
+						System.out.print(" toda la baraja, ludopata");
 					}
 				}
 			}
