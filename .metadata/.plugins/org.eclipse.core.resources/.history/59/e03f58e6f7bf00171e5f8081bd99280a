@@ -2,11 +2,13 @@
 public class ArrayEj3 {
 
 	public static void main(String[] args) {
+		final int n = 20;
 		int Array1 [];
-		Array1 = new int[20];
+		Array1 = new int[n];
 		int i, max=0, min=0, posMax=Array1[0], posMin=Array1[0];
+		String s1="";
 		System.out.print("Lista de 20 numeros: ");
-		for (i=0; i < Array1.length; i++){
+		for (i=0; i < n; i++){
 			Array1[i]=(int)Math.floor(Math.random()*21-10);
 			System.out.print((int)Array1[i]);
 			System.out.print(" ");
@@ -14,11 +16,14 @@ public class ArrayEj3 {
 				max = Array1[i];
 				posMax = i;
 				
-			}else if (min > Array1[i]){
+
+			}
+			if (min > Array1[i]){
 				min = Array1[i];
 				posMin = i;
 			}
 		}
+
 		System.out.println();
 		System.out.println("Num max: " +max +" en la posicion " +posMax); 
 		System.out.println("Num min: " +min +" en la posicion " +posMin);

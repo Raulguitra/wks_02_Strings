@@ -5,6 +5,7 @@ public class ArrayEj3 {
 		int Array1 [];
 		Array1 = new int[20];
 		int i, max=0, min=0, posMax=Array1[0], posMin=Array1[0];
+		String s1="";
 		System.out.print("Lista de 20 numeros: ");
 		for (i=0; i < Array1.length; i++){
 			Array1[i]=(int)Math.floor(Math.random()*21-10);
