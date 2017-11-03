@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Hoja2Ej1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1;
+		int i, letra;
+		String a;
+
+		System.out.println("Escribe una frase");
+		s1 = sc.nextLine();
+		System.out.println("Escribe una letra");
+		a = sc.nextLine();
+		letra = a.indexOf(0);
+		while (a.length()>1){
+			System.out.println("Escribe una letra");
+			a = sc.nextLine();
+		}
+		for (i=0; 1<s1.length(); i++){
+			if (s1.charAt(i)==letra){
+				System.out.print(a.toUpperCase());
+			}
+		/*	if (s1.startsWith(a)){
+				System.out.print(a.toUpperCase());
+			}while (s1.indexOf(letra)!=-1){
+				System.out.print(a.toUpperCase());
+			}if (s1.endsWith(a)){
+				System.out.print(a.toUpperCase());
+			}*/
+		}
+	}//main
+
+}//Class
