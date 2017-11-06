@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Hoja2Ej7 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1, palabra;
+		int i,j,n=0;
+		int conta [];
+		conta = new int[n];
+		System.out.println("Escribe una palabra");
+		s1 = sc.nextLine();
+		for (i=0; i<s1.length(); i++){
+			if ((s1.charAt(i)=='a') || (s1.charAt(i)=='e')|| (s1.charAt(i)=='i')|| (s1.charAt(i)=='o')|| (s1.charAt(i)=='u')){
+				conta[i]++;
+				System.out.println(s1.charAt(i)+" se repite " +conta[i] +" veces");
+			}
+			
+		}
+		
+	}//main
+	
+}//Class
