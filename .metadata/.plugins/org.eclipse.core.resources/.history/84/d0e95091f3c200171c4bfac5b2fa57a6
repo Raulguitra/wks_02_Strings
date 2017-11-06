@@ -10,8 +10,8 @@ public class Hoja2Ej5 {
 		s1 = sc.nextLine();
 		char ultimo = s1.charAt(s1.length()-1);
 		char primero = s1.charAt(0);
-		System.out.print(s1.charAt(s1.length()-1));	
-		System.out.print(s1.substring(1,s1.length()).replace(primero, primero));	
+		System.out.print(ultimo);	
+		System.out.print(s1.substring(1,s1.length()-1).replace(ultimo, primero));	
 
 	}//main
 	
