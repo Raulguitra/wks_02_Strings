@@ -18,7 +18,7 @@ public class Ejer9T4 {
 				System.out.println("Introduce bien el codigo (Empieza por 199)");
 				s1 = sc.nextLine();	
 			}
-			while (s1.charAt(3)<=48 || s1.charAt(3)>=53){ 
+			while (s1.charAt(3)<48 || s1.charAt(3)>53){ 
 				contaMal++;
 				System.out.println("Introduce bien el codigo (199X)");
 				s1 = sc.nextLine();	
@@ -50,7 +50,6 @@ public class Ejer9T4 {
 			System.out.println("Introduce otro codigo");
 			s1 = sc.nextLine();
 		}
-
 		System.out.println(contaBien+" codigos han sido introducidos correctamente");
 		System.out.println(contaMal+" codigos han sido introducidos mal");
 		System.out.println("Hay " +contaH1 +" hombres en primero y " +contaH2 +" en segundo ");

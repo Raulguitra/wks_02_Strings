@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Hoja2Ej6 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1, palabra;
+		System.out.println("Escribe una frase");
+		s1 = sc.nextLine();
+		palabra = "si";
+		if (s1.startsWith(palabra+" ")){
+			s1.replace(palabra, "no");
+		}else if (s1.indexOf(" " +palabra +" ")!=-1){
+			s1.replace(palabra, "no");
+		}else if (s1.endsWith(" "+palabra)){
+			s1.replace(palabra, "no");
+		} else{
+			s1.replace(palabra, "no");
+		}
+	}//main
+	
+}//Class
