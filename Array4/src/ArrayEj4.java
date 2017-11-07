@@ -10,6 +10,7 @@ public class ArrayEj4 {
 		for (i=0; i<f; i++){
 			for (j=0; j<c; j++){
 				Array1[i][j]=(int)Math.floor(Math.random()*201-100);
+				System.out.print(Array1[i][j] +" ");
 				if (max < Array1[i][j]){
 					max = Array1[i][j];
 					filaMax = i;
@@ -21,6 +22,7 @@ public class ArrayEj4 {
 					colMin = j;
 				}
 			}
+			System.out.println();
 		}
 		System.out.println("Num max: " +max +" en la posicion [" +filaMax +"], [" +colMax+"]");
 		System.out.println("Num min: " +min +" en la posicion [" +filaMin +"], [" +colMin+"]");
