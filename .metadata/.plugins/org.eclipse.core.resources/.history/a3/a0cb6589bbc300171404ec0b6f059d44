@@ -25,7 +25,7 @@ public class Hoja2Ej7 {
 			}else if (vocal == 'u'){
 				arrayConta[i]++;
 			}
-			System.out.println(arrayConta[i]);
+			System.out.println((char)arrayConta[i]);
 		}
 		
 		

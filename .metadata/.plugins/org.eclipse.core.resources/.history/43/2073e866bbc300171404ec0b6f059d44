@@ -15,21 +15,20 @@ public class Hoja2Ej7 {
 		for (i=0; i<s1.length(); i++){
 			char vocal = s1.charAt(i);
 			if (vocal == 'a'){
-				arrayConta[i]++;
+				contaA++;
 			}else if (vocal == 'e'){
-				arrayConta[i]++;
+				contaE++;
 			}else if (vocal == 'i'){
-				arrayConta[i]++;
+				contaI++;
 			}else if (vocal == 'o'){
-				arrayConta[i]++;
+				contaO++;
 			}else if (vocal == 'u'){
-				arrayConta[i]++;
+				contaU++;
 			}
 			System.out.println(arrayConta[i]);
 		}
-		
-		
-		//System.out.println("La vocal que más se repite es " +" y se repite " +contaU +" veces");
+		Arrays.sort(arrayConta);
+		System.out.println("La vocal que más se repite es " +" y se repite " +contaU +" veces");
 		
 			
 		
