@@ -5,27 +5,27 @@ public class Hoja2Ej7 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String s1;
-		int clembuterol [],i,j,max=0, letra;
-		clembuterol = new int[5];
+		int i,j,max=0,posicion;
+		int conta[] = {0,0,0,0,0};
+		char letra;
 		String vocales="aeiou";
 		System.out.println("Escribe una palabra");
 		s1 = sc.nextLine();
 		for (i=0; i<s1.length(); i++){
 			letra = s1.charAt(i);
-			clembuterol[i]==vocales.indexOf(letra);
-				if(){
-					clembuterol[j]++;
-				}
+			conta[i]=vocales.indexOf(letra);
+			if(conta[i]!=-1){
+				conta[i]++;
 			}
-		}
-		/*for (i=0; i<vocales.length(); i++){
-			System.out.println("Aparece la vocal " +vocales.charAt(i) +" " +clembuterol[i] +" veces");
-			if (clembuterol[i]>0){
-				max=clembuterol[i];
+			
+			if (conta[i]>max){
+				max = conta[i];
+				posicion=i;
 			}
-			System.out.println(max);*/
+			
+
 		}
-		
+		System.out.println("La vocal " +vocales.charAt(i) +" aparece " +conta[i] +" veces");
 	}//main
 
 }//Class

@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class Hoja2Ej7 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1;
+		int i,j,max=0,posicion;
+		int conta[] = {0,0,0,0,0};
+		char letra;
+		String vocales="aeiou";
+		System.out.println("Escribe una palabra");
+		s1 = sc.nextLine();
+		for (i=0; i<s1.length(); i++){
+			for (j=0; j<vocales.length(); j++){
+				conta[j]++;
+				if (conta[j]>max){
+					max=conta[j];
+					posicion=i;
+				}
+			}
+			System.out.println("La vocal que mas aparece es " +i +" " +conta[j] +" veces");
+		}
+	}//main
+
+}//Class
