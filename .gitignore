@@ -1,4 +1,6 @@
 # Compiled source #
 ###################
 .metadata
+.metadata/
 .recommenders
+.recommenders/
