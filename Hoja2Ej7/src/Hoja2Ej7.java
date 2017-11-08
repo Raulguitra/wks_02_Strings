@@ -13,7 +13,7 @@ public class Hoja2Ej7 {
 		s1 = sc.nextLine();
 		for (i=0; i<s1.length(); i++){
 			letra = s1.charAt(i);
-			i=vocales.indexOf(letra);
+			i=vocales.indexOf(letra); //bucle infinito
 			if(conta[i]!=-1){
 				conta[i]++;
 			}

@@ -1,0 +1,16 @@
+import java.util.*;
+public class Pseudocodigo3_33 {
+
+	public static void main(String[] args) {
+		int i;
+		Scanner sc = new Scanner(System.in);
+		String arrayNombres[] = new String[3];
+		System.out.println("Introduce 3 nombres");
+		for (i=0; i<arrayNombres.length; i++){
+			arrayNombres[i] = sc.nextLine();
+
+		}
+		System.out.println(arrayNombres[i]);
+	}//main
+
+}//Class
