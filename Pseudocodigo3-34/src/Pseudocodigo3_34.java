@@ -7,7 +7,7 @@ public class Pseudocodigo3_34 {
 		int arrayNotas[] = new int[10];
 
 		for (i=0; i<arrayNotas.length; i++){
-			arrayNotas[i]=(int)Math.floor(Math.random()*10);
+			arrayNotas[i]=(int)Math.floor(Math.random()*11);
 			System.out.printf("%3d", (int)arrayNotas[i]);
 			conta= conta + arrayNotas[i];
 		}

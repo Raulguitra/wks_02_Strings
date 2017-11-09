@@ -10,11 +10,13 @@ public class ArrayEj8 {
 		Scanner sc = new Scanner(System.in);
 		int i,j=0;
 		for (i=0; i<alumno; i++){
+			System.out.println();
 			for (j=0; j<asig; j++){
 				Array1[i][j]=(int)Math.floor(Math.random()*10+1);
-				System.out.println(Array1[i][j] +"["+i+"]" +"["+j+"]");
+				System.out.printf("%5d", Array1[i][j]);
 			}
 		}
+		System.out.println();
 		System.out.println("Numero de alumno");
 		numFila = sc.nextInt();
 		for (i=0; i<1; i++){ //i<1 solo 1 fila
