@@ -12,7 +12,6 @@ public class Pseudocodigo3_41 {
 			System.out.println();
 			System.out.println("----------------------------------------------------------------------------------------------------");
 			for (j=0; j<10; j++){
-				conta += tabla[0][j][0];
 				System.out.println();
 				for (k=0; k<20; k++){
 					tabla[i][j][k]=(int)Math.floor(Math.random()*11);
@@ -24,9 +23,10 @@ public class Pseudocodigo3_41 {
 		System.out.println("\n----------------------------------------------------------------------------------------------------");
 
 		for (i=0; i<5; i++){
-			System.out.println();
+			conta=0;
 			System.out.println();
 			for (j=0; j<10; j++){
+				conta += tabla[i][j][k];
 				System.out.println("La nota media del curso #" +(j+1) +" del centro # " +(i+1) +" es " +(float)conta/10);
 				System.out.println();
 				for (k=0; k<20; k++){
@@ -38,5 +38,5 @@ public class Pseudocodigo3_41 {
 
 
 	}//main
-	
+
 }//Class
