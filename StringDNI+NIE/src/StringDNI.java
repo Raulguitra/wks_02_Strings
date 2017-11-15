@@ -42,7 +42,7 @@ public class StringDNI {
 				nie = sc.nextLine();
 				nie = nie.toUpperCase();
 				if (nie.charAt(0)==patronNie.charAt(0)){ //se compara el primer caracter del string introducido con el string patron NIE
-					nieNum = nie.valueOf(0) + (nie.substring(1, 8)); //se concatena el valor correspondiente (0 para x
+					nieNum = String.valueOf(0) + (nie.substring(1, 8)); //se concatena el valor correspondiente (0 para x
 					System.out.println(nieNum +" es el String nieNum");             // 1 para y, 2 para z) en un String y se imprime
 					do{
 						System.out.println("Introduce la letra");
@@ -56,7 +56,7 @@ public class StringDNI {
 						System.out.println("Letra mal");
 					}
 				}else if (nie.charAt(0)==patronNie.charAt(1)){
-					nieNum = nie.valueOf(1) + (nie.substring(1, 8)); //nie.valueof(1) da siempre 1. 
+					nieNum = String.valueOf(1) + (nie.substring(1, 8)); //nie.valueof(1) da siempre 1. 
 					System.out.println(nieNum +" String nieNum"); 
 					do{
 						System.out.println("Introduce la letra");
@@ -70,7 +70,7 @@ public class StringDNI {
 						System.out.println("Letra mal");
 					}
 				}else if (nie.charAt(0)==patronNie.charAt(2)){
-					nieNum = nie.valueOf(2) + (nie.substring(1, 8));
+					nieNum = String.valueOf(2) + (nie.substring(1, 8));
 					System.out.println(nieNum +" String nieNum");
 					do{
 						System.out.println("Introduce la letra");
