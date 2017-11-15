@@ -40,7 +40,7 @@ public class StringDNI {
 				System.out.println("Introduce NIE sin letra");
 				sc.nextLine();
 				nie = sc.nextLine();
-				if (nie.charAt(0)==patronNie.charAt(0)){ //se compara el primer caracter del string introducido con el string patron
+				if (nie.charAt(0)==patronNie.charAt(0)){ //se compara el primer caracter del string introducido con el string patron NIE
 					nieNum = primeraLetra.valueOf(0) + (nie.substring(1, 8)); //se concatena el valor correspondiente (0 para x
 					System.out.println(nieNum +" String nieNum");             // 1 para y, 2 para z) en un String y se imprime
 					do{
@@ -80,8 +80,8 @@ public class StringDNI {
 						System.out.println("Letra mal");
 					}
 				}
-				
-			}while (nie.length()!=8); //con 1 caracter peta
+
+			}while (nie.length()!=8 && letraBien==false); //con 1 caracter peta
 
 			break;
 		}
