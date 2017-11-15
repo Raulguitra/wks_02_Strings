@@ -8,7 +8,6 @@ public class StringDNI {
 		String patronNie = "XYZ";
 		String letraDada = "";
 		String nie="";
-		String primeraLetra="";
 		String nieNum;
 		int codigo, documento;
 		boolean letraBien = false;
@@ -41,7 +40,7 @@ public class StringDNI {
 				sc.nextLine();
 				nie = sc.nextLine();
 				if (nie.charAt(0)==patronNie.charAt(0)){ //se compara el primer caracter del string introducido con el string patron NIE
-					nieNum = primeraLetra.valueOf(0) + (nie.substring(1, 8)); //se concatena el valor correspondiente (0 para x
+					nieNum = nie.valueOf(0) + (nie.substring(1, 8)); //se concatena el valor correspondiente (0 para x
 					System.out.println(nieNum +" String nieNum");             // 1 para y, 2 para z) en un String y se imprime
 					do{
 						System.out.println("Introduce la letra");
@@ -53,8 +52,8 @@ public class StringDNI {
 					}else{
 						System.out.println("Letra mal");
 					}
-				}else if (nie.charAt(1)==patronNie.charAt(1)){
-					nieNum = primeraLetra.valueOf(1) + (nie.substring(1, 8)); 
+				}else if (nie.charAt(0)==patronNie.charAt(1)){
+					nieNum = nie.valueOf(1) + (nie.substring(1, 8)); 
 					System.out.println(nieNum +" String nieNum");
 					do{
 						System.out.println("Introduce la letra");
@@ -66,8 +65,8 @@ public class StringDNI {
 					}else{
 						System.out.println("Letra mal");
 					}
-				}else if (nie.charAt(2)==patronNie.charAt(2)){
-					nieNum = primeraLetra.valueOf(2) + (nie.substring(1, 8)); 
+				}else if (nie.charAt(0)==patronNie.charAt(2)){
+					nieNum = nie.valueOf(2) + (nie.substring(1, 8)); 
 					System.out.println(nieNum +" String nieNum");
 					do{
 						System.out.println("Introduce la letra");
@@ -81,7 +80,7 @@ public class StringDNI {
 					}
 				}
 
-			}while (nie.length()!=8 && letraBien==false); //con 1 caracter peta
+			}while (nie.length()!=8 && letraBien==false);
 
 			break;
 		}
