@@ -26,6 +26,7 @@ public class StringDNI {
 				System.out.println("Introduce la letra");
 				sc.nextLine();
 				letraDada = sc.nextLine();
+				letraDada = letraDada.toUpperCase();
 			}while (letraDada.length()>1 && letraBien==false);
 			if (letraDada.charAt(0)==(patron.charAt(codigo%23))){
 				System.out.println("Letra bien");
@@ -39,12 +40,14 @@ public class StringDNI {
 				System.out.println("Introduce NIE sin letra");
 				sc.nextLine();
 				nie = sc.nextLine();
+				nie = nie.toUpperCase();
 				if (nie.charAt(0)==patronNie.charAt(0)){ //se compara el primer caracter del string introducido con el string patron NIE
 					nieNum = nie.valueOf(0) + (nie.substring(1, 8)); //se concatena el valor correspondiente (0 para x
-					System.out.println(nieNum +" String nieNum");             // 1 para y, 2 para z) en un String y se imprime
+					System.out.println(nieNum +" es el String nieNum");             // 1 para y, 2 para z) en un String y se imprime
 					do{
 						System.out.println("Introduce la letra");
 						letraDada = sc.nextLine();
+						letraDada = letraDada.toUpperCase();
 					}while (letraDada.length()>1 && letraBien==false);
 					if (letraDada.charAt(0)==(patron.charAt(Integer.parseInt(nieNum)%23))){ //Se compara con el valor del Int del string concatenado
 						System.out.println("Letra bien");
@@ -58,6 +61,7 @@ public class StringDNI {
 					do{
 						System.out.println("Introduce la letra");
 						letraDada = sc.nextLine();
+						letraDada = letraDada.toUpperCase();
 					}while (letraDada.length()>1 && letraBien==false);
 					if (letraDada.charAt(0)==(patron.charAt(Integer.parseInt(nieNum)%23))){
 						System.out.println("Letra bien");
@@ -71,6 +75,7 @@ public class StringDNI {
 					do{
 						System.out.println("Introduce la letra");
 						letraDada = sc.nextLine();
+						letraDada = letraDada.toUpperCase();
 					}while (letraDada.length()>1 && letraBien==false);
 					if (letraDada.charAt(0)==(patron.charAt(Integer.parseInt(nieNum)%23))){
 						System.out.println("Letra bien");
