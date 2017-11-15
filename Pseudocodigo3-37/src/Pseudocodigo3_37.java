@@ -9,7 +9,7 @@ public class Pseudocodigo3_37 {
 		for (filas=0; filas<F; filas++){
 			System.out.println();
 			for (columnas=0; columnas<C; columnas++){
-				matriz [filas][columnas]=(int)Math.floor(Math.random()*101+1); //generar matriz 4x5 con nums entre 1 y 100
+				matriz [filas][columnas]=(int)Math.floor(Math.random()*100+1); //generar matriz 4x5 con nums entre 1 y 100
 				System.out.printf("%5d", matriz [filas][columnas]);
 			}
 		}

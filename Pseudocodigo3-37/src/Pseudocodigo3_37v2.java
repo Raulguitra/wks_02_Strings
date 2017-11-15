@@ -11,7 +11,7 @@ public class Pseudocodigo3_37v2 {
 		for (filas=0; filas<F; filas++){ 
 			System.out.println();
 			for (columnas=0; columnas<C; columnas++){
-				matriz [filas][columnas]=mT[columnas][filas]=(int)Math.floor(Math.random()*101+1);
+				matriz [filas][columnas]=mT[columnas][filas]=(int)Math.floor(Math.random()*100+1);
 				System.out.printf("%5d", matriz [filas][columnas]);
 			}
 		}
