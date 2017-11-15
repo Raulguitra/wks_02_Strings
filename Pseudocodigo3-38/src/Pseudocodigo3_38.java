@@ -15,7 +15,7 @@ public class Pseudocodigo3_38 {
 				System.out.printf("%5d", Array1 [i][j]);
 				conta+=Array1[i][j];
 			}
-			System.out.print("\tLa media es: " +(float)conta/10); //Misma media
+			System.out.print("\tLa media es: " +(float)conta/10);
 		}
 
 	}//main
