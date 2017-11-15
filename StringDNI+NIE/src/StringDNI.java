@@ -56,8 +56,8 @@ public class StringDNI {
 						System.out.println("Letra mal");
 					}
 				}else if (nie.charAt(0)==patronNie.charAt(1)){
-					nieNum = nie.valueOf(1) + (nie.substring(1, 8)); 
-					System.out.println(nieNum +" String nieNum");
+					nieNum = nie.valueOf(1) + (nie.substring(1, 8)); //nie.valueof(1) da siempre 1. 
+					System.out.println(nieNum +" String nieNum"); 
 					do{
 						System.out.println("Introduce la letra");
 						letraDada = sc.nextLine();
@@ -70,7 +70,7 @@ public class StringDNI {
 						System.out.println("Letra mal");
 					}
 				}else if (nie.charAt(0)==patronNie.charAt(2)){
-					nieNum = nie.valueOf(2) + (nie.substring(1, 8)); 
+					nieNum = nie.valueOf(2) + (nie.substring(1, 8));
 					System.out.println(nieNum +" String nieNum");
 					do{
 						System.out.println("Introduce la letra");
