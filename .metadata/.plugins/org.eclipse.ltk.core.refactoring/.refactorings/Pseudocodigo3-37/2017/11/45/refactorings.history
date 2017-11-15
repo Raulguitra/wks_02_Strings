@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Pseudocodigo3_37.java&apos; to &apos;Pseudocodigo3_37.java&apos;&#x0D;&#x0A;- Original project: &apos;Pseudocodigo3-37&apos;&#x0D;&#x0A;- Destination element: &apos;Pseudocodigo3_37.java&apos;&#x0D;&#x0A;- Original element: &apos;Pseudocodigo3_37.java&apos;" description="Copy compilation unit" destination="/src&lt;{Pseudocodigo3_37.java" element1="/src&lt;{Pseudocodigo3_37.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1510250616274" units="1" version="1.0"/>
+</session>
