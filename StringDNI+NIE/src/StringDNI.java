@@ -88,6 +88,8 @@ public class StringDNI {
 			}while (nie.length()!=8 && letraBien==false);
 
 			break;
+			default:
+				System.out.println("Adios");
 		}
 		//X9975003
 	}//main

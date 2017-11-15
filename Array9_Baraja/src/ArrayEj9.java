@@ -4,7 +4,7 @@ public class ArrayEj9 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int i,j=0,n, conta=0;
+		int i,n, conta=0;
 		boolean encontrado;
 		String cartaNum [] = {"1", "2", "3", "4", "5", "6", "7","A","B","C"};
 		String palo [] = {"O", "C", "E", "B"};
