@@ -89,7 +89,7 @@ public class StringDNI {
 
 			break;
 			default:
-				System.out.println("Adios");
+				System.out.println("Bueno pues molt bé pues adiós");
 		}
 		//X9975003
 	}//main
