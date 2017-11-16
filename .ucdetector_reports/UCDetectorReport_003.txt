@@ -1,3 +1,0 @@
-Created with UCDetector 2.0.0	2017-11-16 00:58:36	http://www.ucdetector.org/	Created by class: org.ucdetector.report.TextReport	
-Location	Description	Java	Marker	Author
-ArrayEj9.<init>(ArrayEj9.java:3)	Class "ArrayEj9" has 0 references	ArrayEj9	org.ucdetector.analyzeMarkerReference	

@@ -1,3 +1,0 @@
-Created with UCDetector 2.0.0	2017-11-16 00:57:36	http://www.ucdetector.org/	Created by class: org.ucdetector.report.TextReport	
-Location	Description	Java	Marker	Author
-StringDNI.<init>(StringDNI.java:3)	Class "StringDNI" has 0 references	StringDNI	org.ucdetector.analyzeMarkerReference	
