@@ -1,7 +1,8 @@
-# List of external plug-in models previously loaded. Timestamp: 1510762941372
+# List of external plug-in models previously loaded. Timestamp: 1510859981183
 file:/C:/Program Files/eclipse/plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar
 file:/C:/Program Files/eclipse/plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar
 file:/C:/Program Files/eclipse/plugins/ch.qos.logback.slf4j_1.0.7.v201505121915.jar
+file:/C:/Program Files/eclipse/plugins/com.github.spotbugs.plugin.eclipse_3.1.0.r201710241414-11c9895/
 file:/C:/Program Files/eclipse/plugins/com.google.gson_2.2.4.v201311231704.jar
 file:/C:/Program Files/eclipse/plugins/com.google.guava_15.0.0.v201403281430.jar
 file:/C:/Program Files/eclipse/plugins/com.google.inject_3.0.0.v201605172100.jar

@@ -5,8 +5,8 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="F:\DAW1\PR\Workspaces\wks_02_Strings"/>
 			<item value="C:\Users\usuario\Desktop\Programacion\Workspace\wks_02_Strings"/>
+			<item value="F:\DAW1\PR\Workspaces\wks_02_Strings"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
