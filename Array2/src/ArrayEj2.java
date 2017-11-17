@@ -1,6 +1,8 @@
 import java.util.*;
 public class ArrayEj2 {
-
+/*	Leer del teclado dos vectores de dimensión 10 y construir un tercer vector cuyos componentes sean la suma de los dos anteriores. 
+ * Luego se imprime el tercer vector.
+	A continuación se ordena y se vuelve a imprimir. */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int i, iteracion, aux;
