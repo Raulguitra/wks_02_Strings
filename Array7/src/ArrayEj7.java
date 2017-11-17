@@ -4,17 +4,17 @@ import java.util.Scanner;
 public class ArrayEj7 {
 
 	public static void main(String[] args) {
-		final int f = 10;
-		final int c = 10;
-		int Array1 [][];
-		Array1 = new int[f][c];
-		int i,j=0,temp, fila1=0, fila2=0;
-		for (i=0; i<f; i++){
-			for (j=0; j<c; j++){
+		int Array1 [][] = new int[10][10];
+
+		int i=0,j=0,temp, fila1=0, fila2=0;
+		for (i=0; i<10; i++){
+			System.out.println();
+			for (j=0; j<10; j++){
 				Array1[i][j]=(int)Math.floor(Math.random()*21-10);
-				System.out.println(Array1[i][j] +"["+i+"]" +"["+j+"]");
+				System.out.printf("%5d", Array1[i][j]);
 			}
 		}
+		System.out.println();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduce el numero de fila que quieras mover: ");
 		fila1 = sc.nextInt();
@@ -28,14 +28,15 @@ public class ArrayEj7 {
 			System.out.println("Numero entre 1 y 5 ");
 			fila2 = sc.nextInt();
 		}
-		for (i=0; i<f; i++){ 
-			temp = Array1[fila1-1][i]; // matriz auxiliar para que no sobreescriba las filas
+		for (i=0; i<10; i++){ 
+			temp = Array1[fila1-1][i]; // matriz auxiliar para que no sobreescriba la fila
 			Array1[fila1-1][i] = Array1[fila2-1][i];
-			Array1[fila2-1][i] = temp; //
+			Array1[fila2-1][i] = temp;
 		}
-		for (i=0; i<f; i++){
-			for (j=0; j<c; j++){
-				System.out.println(Array1[i][j] +"["+i+"]" +"["+j+"]");
+		for (i=0; i<10; i++){
+			System.out.println();
+			for (j=0; j<10; j++){
+				System.out.printf("%5d", Array1[i][j]);
 			}
 		}
 	}//main
