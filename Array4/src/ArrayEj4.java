@@ -1,4 +1,5 @@
-
+/*Generar una matriz de 5x5  (numérica entera entre -100 y 100) 
+imprimir el valor mayor y el menor y los lugares donde se encuentran.*/ 
 public class ArrayEj4 {
 
 	public static void main(String[] args) {
