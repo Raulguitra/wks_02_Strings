@@ -1,5 +1,8 @@
+/*Hacer un programa para que extraiga cartas de una baraja española 
+La notación del naipe será 
+1,2,3,4,5,6,7,A,B,C (num de carta A=10-sota-, B=11-caballo-, C=12rey-) 
+OCEP (oros, copas, espadas y bastos) para el palo*/
 import java.util.Scanner;
-
 public class ArrayEj9 {
 
 	public static void main(String[] args) {
