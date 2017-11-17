@@ -1,5 +1,6 @@
+/*Generar una matriz de 5x5 numérica entera entre -10 y 10, a continuación pedir dos números de fila,
+que se deben filtrar entre 1 y 5  e intercambiar ambas filas. Presentar las matrices antes y después del cambio. */
 import java.util.Scanner;
-
 public class ArrayEj7 {
 
 	public static void main(String[] args) {
