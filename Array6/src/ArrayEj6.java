@@ -1,4 +1,5 @@
-
+/*Generar una matriz de 10x10, asignarles número reales aleatorios a cada elemento entre -5 y 5. 
+Calcular e imprimir la suma de cada una de sus filas y de cada una de sus columnas junto con la matriz. */
 public class ArrayEj6 {
 
 	public static void main(String[] args) {
