@@ -1,4 +1,5 @@
-
+/*Generar  dos vectores de dimensión  10 (dar valores aleatorios entre 1 y 5 a cada elemento)
+comprobar para cada uno de los elementos  del primer vector cuántas veces está en el segundo*/
 public class ArrayEj5 {
 
 	public static void main(String[] args) {
