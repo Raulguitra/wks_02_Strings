@@ -1,6 +1,8 @@
 public class ArrayEj1 {
-
-	public static void main(String[] args) {
+/*	Se generan 20 números aleatorios de tipo entero entre -10 y 10 almacenándolos en un vector. 
+ * Hay que calcular y mostrar la media y, además, mostrar cuántos números hay: 
+ * -Superiores a la media -Inferiores a la media -Iguales a la media 
+*/	public static void main(String[] args) {
 		final int n = 20;
 		int Array1 [];
 		Array1 = new int[n];
