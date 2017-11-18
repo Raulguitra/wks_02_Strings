@@ -7,7 +7,6 @@ public class Hoja2Ej1 {
 		String s1;
 		int i, letra;
 		char a;
-		
 		System.out.println("Escribe una frase");
 		s1 = sc.nextLine();
 		System.out.println("Escribe una letra");
