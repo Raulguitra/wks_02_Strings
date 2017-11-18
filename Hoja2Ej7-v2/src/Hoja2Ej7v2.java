@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-
+//Contador vocales
 public class Hoja2Ej7v2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
