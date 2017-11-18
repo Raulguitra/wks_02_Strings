@@ -1,3 +1,4 @@
+//Leer una frase de máximo 80 caracteres y escribirla progresivamente 
 import java.util.Scanner;
 public class Ejer1T4 {
 
