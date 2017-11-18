@@ -1,10 +1,9 @@
+// Escribe un programa que pida una palabra por teclado e intercambie la última y la primera letra
 import java.util.Scanner;
-
 public class Hoja2Ej5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String s1,s2;
-		int i;
+		String s1;
 		System.out.println("Introduce una frase: ");
 		s1 = sc.nextLine();
 		char ultimo = s1.charAt(s1.length()-1);
