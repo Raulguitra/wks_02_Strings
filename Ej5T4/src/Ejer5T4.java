@@ -1,3 +1,4 @@
+// construir otras dos cadenas de forma que una contenga los caracteres en posición par y la otra los caracteres en posición impar. 
 import java.util.*;
 public class Ejer5T4 {
 
