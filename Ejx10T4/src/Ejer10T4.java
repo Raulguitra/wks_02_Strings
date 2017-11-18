@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// diga cuántas letras distintas tiene y la frecuencia de las mismas
 public class Ejer10T4 {
 
 	public static void main(String[] args) {
