@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Contar vocales, consonantes y numeros
 public class Ejer6T4 {
 
 	public static void main(String[] args) {
