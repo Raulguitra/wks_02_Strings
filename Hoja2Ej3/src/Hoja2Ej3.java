@@ -1,5 +1,6 @@
+/*Escribe un programa que pida por teclado una palabra y diga si es un palíndromo o no. 
+Una palabra es un palíndromo si se lee igual de izquierda a derecha que de derecha a izquierda*/
 import java.util.Scanner;
-
 public class Hoja2Ej3 {
 
 	public static void main(String[] args) {
@@ -14,6 +15,5 @@ public class Hoja2Ej3 {
 		}else{
 			System.out.println("No es un palíndromo");
 		}
-
 	}//main
 }//Class
