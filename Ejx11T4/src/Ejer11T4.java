@@ -1,6 +1,6 @@
 import java.util.*;
 public class Ejer11T4 {
-
+//efectúe todas las rotaciones posibles de dicha palabra de forma que el último carácter pase al primero y los demás corran un espacio, 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String s1;
