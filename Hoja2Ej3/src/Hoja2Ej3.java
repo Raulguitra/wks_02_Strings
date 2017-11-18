@@ -9,17 +9,16 @@ public class Hoja2Ej3 {
 		int i;
 		System.out.println("Escribe una frase");
 		s1 = sc.nextLine();
-		
+
 		for (i=s1.length()-1; i>=0; i--){
 			s1reverse+=s1.charAt(i);
 		}
 		System.out.println(s1reverse);	
-		
-		
+
 		if (s1.equals(s1reverse)){
 			System.out.println("Es un palíndromo");
 		}else{
-		System.out.println("No es un palíndromo");
-	}
+			System.out.println("No es un palíndromo");
+		}
 	}//main
 }//Class
