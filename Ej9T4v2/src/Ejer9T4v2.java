@@ -1,6 +1,6 @@
 import java.util.*;
 public class Ejer9T4v2 {
-
+//Filtrado clase
 	public static void main(String[] args) {
 		Scanner teclado= new Scanner(System.in);
 		boolean banyo,bsexo,bcurso;
