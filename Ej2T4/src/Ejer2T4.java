@@ -1,5 +1,5 @@
+//hacer un programa que busque cuántas mayúsculas y minúsculas tiene y lo imprima 
 import java.util.Scanner;
-
 public class Ejer2T4 {
 
 	public static void main(String[] args) {
