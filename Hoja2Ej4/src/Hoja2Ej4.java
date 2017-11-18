@@ -1,5 +1,7 @@
-import java.util.Scanner;
 
+// Después debe intercambiar los apellidos a los nombres y mostrarlos
+
+import java.util.Scanner;
 public class Hoja2Ej4 {
 
 	public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class Hoja2Ej4 {
 		String[] partes1 = s1.split(" ");
 		String[] partes2 = s2.split(" ");
 		System.out.println(partes1[0]+" " +partes2[1]);
-		System.out.println(partes1[1]+" " +partes2[0]);
+		System.out.println(partes2[0]+" " +partes1[1]);
 		
 	}//main
 	
