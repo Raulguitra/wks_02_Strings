@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Contador mayus, minus y numeros
 public class Ejer7T4 {
 
 	public static void main(String[] args) {
