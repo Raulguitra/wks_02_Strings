@@ -1,3 +1,5 @@
+// posición de dicha palabra en la frase o un mensaje indicando que no está. 
+
 import java.util.Scanner;
 public class Ejer3T4 {
 
