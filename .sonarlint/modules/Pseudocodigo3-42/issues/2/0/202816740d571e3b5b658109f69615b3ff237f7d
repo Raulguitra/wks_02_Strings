@@ -1,0 +1,63 @@
+
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞîÅÁ8ù™­·ı+H‘RMAJORZ
+CODE_SMELL
+q
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ìô‹şúÿÿÿÿ8ù™­·ı+H˜RMAJORZ
+CODE_SMELL
+Šsquid:S3457
+"Q%n should be used in place of \n to produce the platform-specific line separator.(ÈÂëòÿÿÿÿÿ8ù™­·ı+HRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HÇRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(™õó‘ıÿÿÿÿ8ù™­·ı+H“RMAJORZ
+CODE_SMELL
+qsquid:S1197"8Move the array designator from the variable to the type.(»ı‹Òûÿÿÿÿ8ù™­·ı+HRMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜´Á8ù™­·ı+HRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ê­¡Ÿúÿÿÿÿ8ù™­·ı+H–RMAJORZ
+CODE_SMELL
+l
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ĞîÅÁ8ù™­·ı+H’RMAJORZ
+CODE_SMELL
+q
+squid:S1063"9Replace this use of System.out or System.err by a logger.(™õó‘ıÿÿÿÿ8ù™­·ı+H•RMAJORZ
+CODE_SMELL
+…squid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(…¬±ä8ù™­·ı+HRMAJORZ
+CODE_SMELL
+…squid:S34575"Q%n should be used in place of \n to produce the platform-specific line separator.(…¬±ä8ù™­·ı+HŸRMAJORZ
+CODE_SMELL
+l
+squid:S1065"9Replace this use of System.out or System.err by a logger.(…¬±ä8ù™­·ı+H—RMAJORZ
+CODE_SMELL
+qsquid:S1197"8Move the array designator from the variable to the type.(–Ô‡÷ÿÿÿÿÿ8ù™­·ı+HRMINORZ
+CODE_SMELL
+Tsquid:S1659"!Declare "mes" on a separate line.(ú’8ù™­·ı+H‰RMINORZ
+CODE_SMELL
+Usquid:S1659""Declare "prod" on a separate line.(ú’8ù™­·ı+HŠRMINORZ
+CODE_SMELL
+€squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿äø‘şÿÿÿÿHÈRMINORZ
+CODE_SMELL
+Zsquid:S1659"'Declare "totalProd" on a separate line.(ú’8ù™­·ı+HŒRMINORZ
+CODE_SMELL
+‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8ù™­·ı+H›RCRITICALZ
+CODE_SMELL
+q
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ÈÂëòÿÿÿÿÿ8ù™­·ı+HRMAJORZ
+CODE_SMELL
+q
+squid:S106."9Replace this use of System.out or System.err by a logger.(¨§ú¥ùÿÿÿÿ8ù™­·ı+H”RMAJORZ
+CODE_SMELL
+]squid:S2140")Use "java.util.Random.nextInt()" instead.(¸˜Ë¢8ù™­·ı+HÖRMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(…¬±ä8ù™­·ı+H™RMAJORZ
+CODE_SMELL
+l
+squid:S106/"9Replace this use of System.out or System.err by a logger.(˜´Á8ù™­·ı+HšRMAJORZ
+CODE_SMELL

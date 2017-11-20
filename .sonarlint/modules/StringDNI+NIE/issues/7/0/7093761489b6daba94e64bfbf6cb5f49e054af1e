@@ -1,0 +1,84 @@
+
+j
+squid:S106T"9Replace this use of System.out or System.err by a logger.(Ğ´šøıÿÿÿÿH¢RMAJORZ
+CODE_SMELL
+Vsquid:S11256")Remove the literal "false" boolean value.(Ê¥ìĞH£RMINORZ
+CODE_SMELL
+Qsquid:S1659"Declare "i" on a separate line.(©¯²ĞúÿÿÿÿH¤RMINORZ
+CODE_SMELL
+d
+squid:S106"9Replace this use of System.out or System.err by a logger.(­ãüH¥RMAJORZ
+CODE_SMELL
+j
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ÅÍ£úÿÿÿÿH¦RMAJORZ
+CODE_SMELL
+d
+squid:S106O"9Replace this use of System.out or System.err by a logger.(­ãüH§RMAJORZ
+CODE_SMELL
+Vsquid:S1125D")Remove the literal "false" boolean value.(Ê¥ìĞH¨RMINORZ
+CODE_SMELL
+Vsquid:S1125R")Remove the literal "false" boolean value.(Ê¥ìĞH©RMINORZ
+CODE_SMELL
+Xsquid:S1481"&Remove this unused "i" local variable.(©¯²ĞúÿÿÿÿHªRMINORZ
+CODE_SMELL
+jsquid:S1854$"=Remove this useless assignment to local variable "letraBien".(Ä¢ÆH«RMAJORZ
+CODE_SMELL
+zsquid:S1192&"JDefine a constant instead of duplicating this literal "Letra mal" 4 times.(Ë—¨ÁH¬RCRITICALZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(àÚşH­RMAJORZ
+CODE_SMELL
+‚squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(Çµí‘H®RCRITICALZ
+CODE_SMELL
+‚squid:S1192"SDefine a constant instead of duplicating this literal "Introduce la letra" 4 times.(­ãüH¯RCRITICALZ
+CODE_SMELL
+€squid:S1192#"KDefine a constant instead of duplicating this literal "Letra bien" 4 times.(Ğ´šøıÿÿÿÿH°RCRITICALZ
+CODE_SMELL
+e
+squid:S106;"9Replace this use of System.out or System.err by a logger.(Ë—¨ÁH±RMAJORZ
+CODE_SMELL
+e
+squid:S106W"9Replace this use of System.out or System.err by a logger.(Ë—¨ÁH²RMAJORZ
+CODE_SMELL
+Vsquid:S1125!")Remove the literal "false" boolean value.(Ê¥ìĞH³RMINORZ
+CODE_SMELL
+j
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Ğ´šøıÿÿÿÿH´RMAJORZ
+CODE_SMELL
+j
+squid:S106_"9Replace this use of System.out or System.err by a logger.(½¹ÀéşÿÿÿÿHµRMAJORZ
+CODE_SMELL
+j
+squid:S106F"9Replace this use of System.out or System.err by a logger.(Ğ´šøıÿÿÿÿH¶RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÕÆÿüÿÿÿÿH·RMAJORZ
+CODE_SMELL
+e
+squid:S106M"9Replace this use of System.out or System.err by a logger.(¾¬Ï®H¸RMAJORZ
+CODE_SMELL
+e
+squid:S106I"9Replace this use of System.out or System.err by a logger.(Ë—¨ÁH¹RMAJORZ
+CODE_SMELL
+e
+squid:S106?"9Replace this use of System.out or System.err by a logger.(¾¬Ï®HºRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H»RMINORZ
+CODE_SMELL
+j
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Ğ´šøıÿÿÿÿH¼RMAJORZ
+CODE_SMELL
+d
+squid:S106A"9Replace this use of System.out or System.err by a logger.(­ãüH½RMAJORZ
+CODE_SMELL
+Ysquid:S1659"'Declare "documento" on a separate line.(©¯²ĞúÿÿÿÿH¾RMINORZ
+CODE_SMELL
+e
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ÂúâµH¿RMAJORZ
+CODE_SMELL
+e
+squid:S106&"9Replace this use of System.out or System.err by a logger.(Ë—¨ÁHÀRMAJORZ
+CODE_SMELL
+d
+squid:S1063"9Replace this use of System.out or System.err by a logger.(­ãüHÁRMAJORZ
+CODE_SMELL

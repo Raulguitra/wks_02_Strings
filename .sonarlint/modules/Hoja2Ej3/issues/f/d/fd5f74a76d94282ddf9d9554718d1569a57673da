@@ -1,0 +1,22 @@
+
+Nsquid:S1643"Use a StringBuilder instead.(™şÃëøÿÿÿÿH×RMINORZ
+CODE_SMELL
+Tsquid:S1659"'Declare "s1reverse" on a separate line.(·´ç»HØRMINORZ
+CODE_SMELL
+e
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(³êÅ÷HÙRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(³Ü¥øÿÿÿÿHÚRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(è‚HÛRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ú¿×øHÜRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HİRMINORZ
+CODE_SMELL
+Ssquid:S2131"!Use "Character.toString" instead.(™şÃëøÿÿÿÿHŞRMAJORZ
+CODE_SMELL

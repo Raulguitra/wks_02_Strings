@@ -1,0 +1,58 @@
+
+Nsquid:S1659"!Declare "mes" on a separate line.(×ß¤H¹RMINORZ
+CODE_SMELL
+Ssquid:S1659"&Declare "producto" on a separate line.(×ß¤HºRMINORZ
+CODE_SMELL
+Osquid:S1659""Declare "suma" on a separate line.(×ß¤H»RMINORZ
+CODE_SMELL
+Ssquid:S1659"&Declare "sumaFila" on a separate line.(×ß¤H¼RMINORZ
+CODE_SMELL
+dsquid:S1197"8Move the array designator from the variable to the type.(Ô—¸kH½RMINORZ
+CODE_SMELL
+jsquid:S1197"8Move the array designator from the variable to the type.(¤¼ôìøÿÿÿÿH¾RMINORZ
+CODE_SMELL
+j
+squid:S106	"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH¿RMAJORZ
+CODE_SMELL
+e
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ÏÙùHÀRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÁRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚ãŸ¿HÂRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(âÈ§úÿÿÿÿHÃRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÄRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ù×Û¡ûÿÿÿÿHÅRMAJORZ
+CODE_SMELL
+j
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÆRMAJORZ
+CODE_SMELL
+e
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ïÙ¤½HÇRMAJORZ
+CODE_SMELL
+j
+squid:S106#"9Replace this use of System.out or System.err by a logger.(—ÆîòúÿÿÿÿHÈRMAJORZ
+CODE_SMELL
+e
+squid:S106&"9Replace this use of System.out or System.err by a logger.(İÚ„ÔHÉRMAJORZ
+CODE_SMELL
+e
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ƒËùÊHÊRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HËRMINORZ
+CODE_SMELL
+‚squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘HÌRCRITICALZ
+CODE_SMELL
+€squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ğ•½¹üÿÿÿÿHÍRMINORZ
+CODE_SMELL
+[squid:S2140")Use "java.util.Random.nextInt()" instead.(»İ ŒùÿÿÿÿHÎRMINORZ
+CODE_SMELL
