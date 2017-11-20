@@ -1,11 +1,13 @@
-import java.util.Scanner;
+
 
 public class Pseudocodigo3_38 {
 
 	public static void main(String[] args) {
-		int i,j,conta=0, numRandom; 
-		int Array1[][] = new int[30][10];
-		
+		int i;
+		int j;
+		int conta;
+		int [][]Array1 = new int[30][10];
+
 		for (i=0;i<30; i++){
 			conta=0;
 			System.out.println();
